@@ -9,7 +9,6 @@ class Topics {
    return topics.map((el) => el.replace('.txt', '').replaceAll('_', ' '));
   }
 }
-
-console.log(Topics.getTopics());
+//console.log(Topics.getTopics());
 
 module.exports = Topics;
